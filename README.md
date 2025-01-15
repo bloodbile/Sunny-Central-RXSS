@@ -1,1 +1,2 @@
-# Sunny-Central-RXSS
+# 🎀 Sunny-Central-RXSS 🎀
+A reflected cross-site scripting (XSS) vulnerability was identified in Sunny Central devices, allowing attackers to inject arbitrary JavaScript into application responses. This critical flaw occurs due to unsafe copying of user-controllable data into the HTML output without proper sanitization. An attacker can exploit this issue by crafting malicious URLs to execute JavaScript in the context of another user's session, potentially stealing sensitive information, hijacking sessions, or performing unauthorized actions.
